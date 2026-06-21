@@ -2,7 +2,7 @@
 
 > An AI-powered agricultural assistant that helps Indian farmers detect crop diseases, understand treatments, and access government schemes — in Hindi and English.
 >
-> Built for the **Agents for Good** hackathon track.
+> Built to help farmers access practical AI support.
 
 ![Status](https://img.shields.io/badge/status-hackathon--ready-10b981) ![License](https://img.shields.io/badge/license-MIT-blue)
 
@@ -242,6 +242,7 @@ KrishiMitra AI provides AI-generated guidance to support — not replace — pro
 
 ---
 
-Built with 💚 for Indian farmers — Agents for Good hackathon track.
-#   K r i s h i M i t r a - A I  
+Built with 💚 for Indian farmers.
+#   K r i s h i M i t r a - A I 
+ 
  

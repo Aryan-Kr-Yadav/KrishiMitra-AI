@@ -9,10 +9,7 @@ import {
 } from "lucide-react";
 
 const TEAM = [
-  { name: "Aarav Mehta", role: "Full-Stack Engineer" },
-  { name: "Priya Nair", role: "AI / ML Engineer" },
-  { name: "Karan Verma", role: "UI/UX Designer" },
-  { name: "Fatima Sheikh", role: "Product & Research" },
+  { name: "Aryan Kumar Yadav", role: "Founder & Developer" },
 ];
 
 const TECH_STACK = [
@@ -100,15 +97,14 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team */}
       <section className="mx-auto mt-20 max-w-5xl text-center">
         <h2 className="section-heading">The Team</h2>
         <p className="mt-3 text-gray-500 dark:text-gray-400">
-          Built in 48 hours by a team passionate about agriculture and AI.
+          Built by Aryan Kumar Yadav with a focus on practical agricultural support.
         </p>
-        <div className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-4">
+        <div className="mt-10 flex justify-center">
           {TEAM.map((member) => (
-            <div key={member.name} className="card">
+            <div key={member.name} className="card w-full max-w-sm">
               <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-emerald-100 font-display text-lg font-bold text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300">
                 {member.name.split(" ").map((n) => n[0]).join("")}
               </div>
@@ -137,22 +133,20 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Hackathon Info */}
       <section className="mx-auto mt-20 max-w-3xl">
         <div className="card flex flex-col items-center gap-4 text-center">
           <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-100 text-amber-600 dark:bg-amber-900/40 dark:text-amber-400">
             <Trophy size={26} />
           </div>
           <h2 className="font-display text-xl font-bold text-gray-900 dark:text-white">
-            Built for the Agents for Good Hackathon
+            Built for farmers and real field conditions
           </h2>
           <p className="max-w-lg text-sm leading-relaxed text-gray-500 dark:text-gray-400">
-            KrishiMitra AI was created to demonstrate how AI agents can be applied
-            to real-world social good — supporting farmers who form the backbone
-            of India's economy with accessible, trustworthy, and free technology.
+            KrishiMitra AI was created to support farmers with accessible,
+            trustworthy, and free technology for crop diagnosis and scheme discovery.
           </p>
           <div className="flex items-center gap-2 text-sm font-semibold text-emerald-700 dark:text-emerald-400">
-            <Sprout size={16} /> Agents for Good Track
+            <Sprout size={16} /> Built for practical agricultural support
           </div>
         </div>
       </section>

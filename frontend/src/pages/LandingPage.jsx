@@ -98,7 +98,7 @@ const TESTIMONIALS = [
 const FAQS = [
   {
     question: "Is KrishiMitra AI free to use?",
-    answer: "Yes, KrishiMitra AI is completely free for farmers. It was built as a hackathon project for the Agents for Good track to make agricultural support more accessible.",
+    answer: "Yes, KrishiMitra AI is completely free for farmers and focused on making agricultural support more accessible.",
   },
   {
     question: "How accurate is the disease diagnosis?",
@@ -135,7 +135,7 @@ export default function LandingPage() {
             transition={{ duration: 0.6 }}
           >
             <span className="inline-flex items-center gap-2 rounded-full bg-emerald-100 px-4 py-1.5 text-xs font-semibold text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300">
-              <Sparkles size={14} /> Agents for Good · Hackathon Project
+              <Sparkles size={14} /> AI-Powered Farming Companion
             </span>
             <h1 className="mt-5 font-display text-4xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white sm:text-5xl lg:text-6xl">
               {t("hero_headline")}

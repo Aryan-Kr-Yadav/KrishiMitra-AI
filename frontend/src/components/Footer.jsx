@@ -14,8 +14,7 @@ export default function Footer() {
           </div>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-gray-500 dark:text-gray-400">
             An AI-powered farming companion helping Indian farmers detect crop
-            diseases and access government support — built for the Agents for
-            Good hackathon track.
+            diseases and access government support.
           </p>
         </div>
 
