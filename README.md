@@ -204,7 +204,6 @@ By empowering farmers with timely information, the platform strives to:
 
 KrishiMitra AI was developed as a solution focused on creating meaningful social impact through AI-powered assistance for the agricultural community.
 
-```
 ---
 
 ## 📄 License
